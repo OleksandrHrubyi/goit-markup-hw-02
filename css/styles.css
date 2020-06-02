@@ -63,6 +63,12 @@ list-style: none;
     font-size: 16px;
     text-decoration: none;
 }
+
+.button:hover,.button:focus
+{
+    color:rgba(0, 0, 0, 0.15)
+}
+
 /* main banner */
 .hero
 {
@@ -165,4 +171,60 @@ list-style: none;
 .custumer-list
 {
     list-style: none;
+}
+
+/* footer */
+.footer
+{
+     background-color: #2F303A;
+}
+
+.footer-logo
+{
+    color: #2196F3;
+    font-size: 22px;
+    text-decoration: none;
+}
+.footer-logo-studio
+{
+    color: #FFFFFF;
+}
+
+.footer-address
+{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footer-contacts
+{
+ color: rgba(255, 255, 255, 0.6);
+ font-size: 14px;
+}
+
+.footer-auth
+{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footer-auth-list
+{
+    list-style: none;
+}
+
+.footer-auth-link
+{
+    color: #FFFFFF;
+    list-style: none;
+}
+.footer-auth-link:hover
+{
+    color: #2196F3;
+}
+
+.footer-developer
+{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
 }
