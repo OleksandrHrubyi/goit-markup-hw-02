@@ -7,16 +7,22 @@
 
 .body
 {
-
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    background-color: #FFFFFF;
-
+   font-size: 14px;
+   line-height: 1.14;
+   font-weight: 500;
+   letter-spacing: 0.03em;
 }
 
 /* logo*/
 .logo
 {
     color: #000000;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -28,14 +34,13 @@
 /* headers navigation */
 .nav
 {
-font-size: 14px;
 list-style: none;
 }
 
 .nav-link
 {
     color: var(--primery-text-color);
-    
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .nav-link:hover,.nav-link:focus
@@ -49,6 +54,7 @@ list-style: none;
 {
     color: var(--accent-color);
     text-decoration: none;
+    font-style: normal;
 }
 .nav-contacts:hover,.nav-contacts:focus
 {
@@ -73,8 +79,11 @@ list-style: none;
 .hero
 {
     color: #FFFFFF;
-    background: aqua;
     font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    background: #2196F3;
 }
 
 /* advantages */
@@ -87,13 +96,13 @@ list-style: none;
 .advantages-title
 {
     color: var(--primery-text-color);
-    font-size: 14px;
+    font-weight: 700;
 }
 
 .advantages-disc
 {
     color: var(--accent-color);
-    font-size: 14px;
+    line-height: 1.7;
 }
 
 /* our products */
@@ -101,18 +110,21 @@ list-style: none;
 {
     color: var(--primery-text-color);
     font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
 }
 
 .products-subtitle
 {
     color: #FFFFFF;
+    font-weight: 700;
     background-color: rgba(47, 48, 58, 0.8);
-    font-size: 14px;
 }
 
 .products-list
 {
     list-style: none;
+    
 }
 
 
@@ -127,6 +139,8 @@ list-style: none;
 {
     color: var(--primery-text-color);
     font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
 }
 
 .team-list
@@ -137,12 +151,14 @@ list-style: none;
 {
     color: var(--primery-text-color);
     font-size: 16px;
+    line-height: 1.19;
 }
 
 .profession
 {
     color: var(--accent-color);
     font-size: 16px;
+    line-height: 1.19;
 }
 
 .team-social
@@ -167,6 +183,8 @@ list-style: none;
 {
     color: var(--primery-text-color);
     font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
 }
 .custumer-list
 {
@@ -182,7 +200,10 @@ list-style: none;
 .footer-logo
 {
     color: #2196F3;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
     text-decoration: none;
 }
 .footer-logo-studio
@@ -193,13 +214,15 @@ list-style: none;
 .footer-address
 {
     color: #FFFFFF;
-    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
 }
 
 .footer-contacts
 {
+ font-weight: 1.17;
  color: rgba(255, 255, 255, 0.6);
- font-size: 14px;
+ font-style: normal;
 }
 .footer-contacts:hover
 {
@@ -209,7 +232,7 @@ list-style: none;
 .footer-auth
 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-weight: 700;
 }
 
 .footer-auth-list
@@ -231,37 +254,11 @@ list-style: none;
 {
     color: rgba(255, 255, 255, 0.4);
     font-size: 12px;
+    line-height: 2;
 }
 
             /* portfolio */
-  /* portfolio navigation */
 
-.portfolio-nav-list
-{
-    list-style: none;
-}
-
-.portfolio-nav-link
-{
-    color: var(--primery-text-color);
-    font-size: 16px;
-    background-color: #F5F4FA;
-    text-decoration: none;
-}
-
-.portfolio-nav-link:hover,.portfolio-nav-link:focus
-{
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-
-    .portfolio-nav-activ
-
-{
-    color: #FFFFFF;
-    background-color: #2196F3;
-
-}
 
 /* portfolio main */
 
@@ -276,18 +273,28 @@ list-style: none;
 {
     color: var(--primery-text-color);
     font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-projects-subtitle
 {
     color: var(--accent-color);
     font-size: 16px;
+    line-height: 1.9;
 }
 
 .portfolio-projects-disk
 {
     color: #FFFFFF;
     font-size: 18px;
-    background-color:rgba(33, 150, 243, 0.9)
+    background-color:rgba(33, 150, 243, 0.9);
+    line-height: 1.6;
+    
 }
 
+.portfolio-projects-link
+{
+    text-decoration: none;
+}
